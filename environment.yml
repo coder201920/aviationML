@@ -70,6 +70,7 @@ dependencies:
   - xz=5.2.5=h7b6447c_0
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.5.0=ha95c52a_0
+  - pycairo=1.20.1
   - pip:
     - arrow==1.1.1
     - asgiref==3.4.1
