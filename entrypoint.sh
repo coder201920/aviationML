@@ -1,4 +1,5 @@
 #!/bin/bash --login
-set -euo pipefail
+set -e
 conda activate aviation
-exec python manage.py runserver
+cd /app/
+exec python manage.py runserver 0.0.0.0:8000

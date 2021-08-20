@@ -13,7 +13,6 @@ SHELL ["/bin/bash", "--login", "-c"]
 # The code to run when container is started:
 COPY . /app/
 WORKDIR /app
-RUN ls -la
 
 EXPOSE 8000
 ENTRYPOINT ["./entrypoint.sh"]
